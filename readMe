@@ -1,0 +1,31 @@
+Space Image Generator:
+
+-This is a basic HTML, CSS, and JavaScript project that generates a daily space image using the NASA API. The purpose of this project is to demonstrate the process of fetching data from an API and displaying it on a webpage.
+
+Features:
+
+-Displays the daily space image from the NASA API on the homepage.
+Allows users to search for a specific date and display the space image from that day.
+
+API Key:
+
+-Please note that for the purpose of this project, the API key has been hard-coded in the JavaScript file. In the future, it is best practice to store the API key server-side and call it to the client-side.
+
+Libraries Used:
+
+-ShareThis.js - provides customizable share buttons for various social media platforms, allowing users to share the daily space image with their friends and followers.
+Usage
+-To use this project, simply download the HTML, CSS, and JavaScript files and open the HTML file in your web browser. The daily space image will be displayed on the homepage. To search for a specific date, enter the date in the search bar and click "submit." The space image from that day will be displayed on the page.
+
+Credits:
+
+-This project was inspired by The Odin Project, which teaches web development using open-source projects and provides a supportive community for learners. We were covering an introduction to API's by building a weather-application. However, I wanted to do something on my own and be a bit more creative, so this is where I built a Space Image Generator. The NASA API was used to fetch the daily space image. ShareThis.js was used to provide social media sharing buttons.
+
+License:
+
+This project is licensed under the MIT license. Feel free to use it and modify it as needed.
+
+
+Reminder:
+
+Keep in mind, for production applications never hard-code your API_KEYs or other private information. This is just an introduction to API's so it's not a super big deal but I am still aware that this isn't best practice.

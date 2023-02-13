@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(./Images/pexels-visit-greenland-360912.jpg);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h3 {
+    color: #fff;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+
+    
+  form {
+    background-color: #fff;
+    width: 300px;
+    height: 43px;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    all: unset;
+    font: 15px system-ui;
+    color: #fff;
+    height: 100%;
+    width: 100%;
+    padding: 6px 9px;
+  }
+  
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .column {
+    float: left;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    border-radius: 10px;
+    opacity: 1;
+  }
+
+
+  
+
+  
